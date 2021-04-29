@@ -28,7 +28,7 @@ get-childItem $strP"\csv\" | foreach {
     $sinseiListss += $sinseiList.accountName
 }
 if($sinseiListss.Length -eq 0){
-    Write-Host "申請書ないです。"
+    Write-Host "ｃｓｖないです。"
     pause
     exit
 }
